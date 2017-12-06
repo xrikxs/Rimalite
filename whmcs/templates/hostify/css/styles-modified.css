@@ -155,14 +155,14 @@ ul.top-nav>li.support-button-holder>a:focus{
     padding-top: 0 !important;
 }
 section#header {
-    background: rgba(255, 255, 255, 0.13);
+	background: #5d9cec;
     position: relative;
 }
 section#header .logo-text img{
     margin-top: -5px;
 }
 section#main-menu {
-    background-color: transparent;
+	background-color: #009df8;
 }
 .logo-holder{
     padding-top: 0 !important;
@@ -284,16 +284,16 @@ ul.top-nav {
 }
 
 .btn-default{
-    color: #ffffff;
-    background-color: #756de7;
-    border:0;
+	color: #ffffff;
+    background-color: #009DF8;
+    border: 0;
     font-size: 12px;
     font-weight: 600;
 }
 .btn-default:hover,.btn-default:focus{
     color: #ffffff;
-    background-color: #6a62db;
-    border:0;
+    background-color: #5d9cec;
+    border: 0;
 }
 .btn{
     border: 0;
@@ -301,16 +301,16 @@ ul.top-nav {
     outline: 0;
 }
 .btn-primary{
-    color: #ffffff;
-    border:0;
-    background-color: #756de7;
+	color: #ffffff;
+    border: 0;
+    background-color: #009DF8;
     font-weight: 600;
     border-radius: 10px !important;
 }
 .btn-primary:hover,.btn-primary:focus{
-    color: #ffffff;
-    border:0;
-    background-color: #6961d9;
+	color: #ffffff;
+    border: 0;
+    background-color: #5d9cec;
 }
 .client-home-panels .panel>.panel-heading .panel-title .btn:hover {
     color: #fff;
@@ -340,12 +340,12 @@ ul.top-nav {
     border-color: #e6e5f1;
 }
 .panel-sidebar .panel-title {
-    color: #756de7;
+    color: #009df8;
     font-weight: 400;
     font-family: inherit;
 }
 .panel-sidebar .panel-title .fa{
-    color: #756de7;
+    color: #009df8;
 }
 .panel-heading {
     border-top-left-radius: 10px;
@@ -477,7 +477,7 @@ label{
     background-color: #009DF8 !important;
 }
 #order-standard_cart .view-cart-items{
-    background-color: #009DF8 !important;
+    background-color: #ffffff !important;
 }
 
 #order-standard_cart .domain-selection-options .option{
@@ -491,9 +491,9 @@ label{
     border:1px solid #c6ddf8;
 }
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
-    border-color: #009DF8;
+border-color: #009DF8;
     border-bottom: 0;
-    color: #7a7a84;
+    color: #009df8;
     background-color: #fff !important;
 }
 #order-standard_cart .view-cart-tabs .tab-content{
@@ -502,10 +502,10 @@ label{
     
 }
 .nav-tabs{
-    border-bottom:1px solid #e6e5f1 !important;
+    border-bottom: 1px solid #009df8 !important;
 }
 #applyPromo button[name="validatepromo"]{
-    background-color: #aeaeb9;
+	background-color: #009df8;
     color: #ffffff !important;
 }
 #order-standard_cart .field, #order-standard_cart .form-control{
@@ -514,9 +514,9 @@ label{
 }
 
 #order-standard_cart .order-summary {
-    background-color: #756de7 !important;
-    /*border-bottom: 3px solid #756de7 !important;*/
-    border: 1px solid #756de7 !important;
+    background-color: #009df8 !important;
+    border-bottom: 3px solid #009df8 !important;
+    border: 1px solid #009df8 !important;
 }
 #order-standard_cart .summary-container{
     background-color: #ffffff !important;
@@ -532,13 +532,13 @@ label{
     text-align: center !important;
 }
 #order-standard_cart .empty-cart .btn{
-    background-color: #756de7 !important;
+    background-color: #009df8 !important;
 }
 #order-standard_cart .view-cart-items .item span {
-    color: #7e7c9b;
+    color: #009df8;
 }
 #order-standard_cart .view-cart-items .item-title {
-    color: #756de7 !important;
+	color: #009df8 !important;
 }
 
 #order-standard_cart .product-info ul{
@@ -551,15 +551,15 @@ label{
     color: #7a92a0;
 }
 #order-standard_cart .btn-remove-from-cart {
-    color: #756de7 !important;
+    color: #009df8 !important;
 }
 #order-standard_cart .btn-remove-from-cart:hover,#order-standard_cart .btn-remove-from-cart:focus {
     color: #ed1f1f !important;
 }
 .btn-success {
     color: #fff;
-    background-color: #79d156;
-    border:0;
+    background-color: #5d9cec;
+    border: 0;
 }
 
 .feature-box.active .feature-button{
@@ -629,10 +629,10 @@ label{
 }
 .modal-content .modal-body {
     font-size: 16px;
-    color: #869eac;
+    color: #626aa7;
 }
 .modal-content .modal-title{
-    color: #756de7;
+	color: #009DF8;
 }
 .modal-content .modal-title .fa{
     color: #ed1f1f;

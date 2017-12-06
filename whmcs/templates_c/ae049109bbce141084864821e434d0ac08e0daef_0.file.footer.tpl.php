@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2017-12-02 20:11:49
+/* Smarty version 3.1.29, created on 2017-12-06 16:03:45
   from "/var/www/html/whmcs/templates/hostify/footer.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_5a22faf5c3ae40_56589329',
+  'unifunc' => 'content_5a2806d1900cc4_21519235',
   'file_dependency' => 
   array (
     'ae049109bbce141084864821e434d0ac08e0daef' => 
     array (
       0 => '/var/www/html/whmcs/templates/hostify/footer.tpl',
-      1 => 1512241891,
+      1 => 1512572622,
       2 => 'file',
     ),
   ),
@@ -19,7 +19,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_5a22faf5c3ae40_56589329 ($_smarty_tpl) {
+function content_5a2806d1900cc4_21519235 ($_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['loginpage']->value == 0 && $_smarty_tpl->tpl_vars['templatefile']->value != "clientregister") {?>
                         </div><!-- /.main-content -->
                 <div class="col-md-3 pull-md-left sidebar">
@@ -40,41 +40,46 @@ if ($_smarty_tpl->tpl_vars['loginpage']->value == 0 && $_smarty_tpl->tpl_vars['t
 <div id="footer" class="container-fluid">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-4 col-md-5">
-                <div class="footer-menu-holder">
-                    <h4>About</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                </div>
-            </div>
             <div class="col-xs-6 col-sm-4 col-md-3">
                 <div class="address-holder">
-                    <div class="phone"><i class="fa fa-phone"></i> 00 285 900 38502</div>
-                    <div class="email"><i class="fa fa-envelope"></i> hello@hostify.com</div>
+                    <div class="email"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Submit a ticket</div> 
+                    <div class="email"><i class="fa fa-envelope"></i> Info@rimalite.net</div>
                     <div class="address">
                         <i class="fa fa-map-marker"></i> 
-                        <div>City Avenue, Office 64,<br>
-                            Floor 6,  Milbourne,<br>
-                            Australia.</div>
+                        <div>Hilversum,<br>
+                             The Netherlands.</div>
                     </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-2 col-md-2">
+                <div class="footer-menu-holder">
+                    <h4>Company</h4>
+                    <ul class="footer-menu">
+                        <li><a href="about.html">About Us</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="pp.html">Privacy Policy</a></li>
+                        <li><a href="tos.html">Terms Of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-2 col-md-3">
+                <div class="footer-menu-holder">
+                    <h4>Services</h4>
+                    <ul class="footer-menu">
+                        <li><a href="mcpackage.html">MC Hosting</a></li>
+                        <li><a href="mcpe.html">MCPE Hosting</a></li>
+                        <li><a href="teamspeak3.html">Ts3 Hosting</a></li>
+                    </ul>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-3 col-md-3">
                 <div class="footer-menu-holder">
-                    <?php if (!$_smarty_tpl->tpl_vars['loggedin']->value) {?>
-                    <h4>Links</h4>
-                    <?php } else { ?>
-                    <h4>Client details</h4>
-                    <?php }?>
+                    <h4>Others</h4>
                     <ul class="footer-menu">
-                        <?php if (!$_smarty_tpl->tpl_vars['loggedin']->value) {?>
-                            <?php $_smarty_tpl->smarty->ext->_subtemplate->render($_smarty_tpl, ((string)$_smarty_tpl->tpl_vars['template']->value)."/includes/navbar.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('navbar'=>$_smarty_tpl->tpl_vars['primaryNavbar']->value), 0, true);
-?>
-
-                        <?php } else { ?>
-                            <?php $_smarty_tpl->smarty->ext->_subtemplate->render($_smarty_tpl, ((string)$_smarty_tpl->tpl_vars['template']->value)."/includes/customnavbar.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('navbar'=>$_smarty_tpl->tpl_vars['secondaryNavbar']->value), 0, true);
-?>
-
-                        <?php }?>
+                        <li><a href="FAQ.html">FAQ</a></li>
+                        <li><a href="portal.html">Payment Methods</a></li>
+                        <li><a href="client/register.php">Create Account</a></li>
+                        <li><a href="whmcs.html">GamePanel</a></li>
                     </ul>
                 </div>
             </div>
@@ -86,6 +91,16 @@ if ($_smarty_tpl->tpl_vars['loginpage']->value == 0 && $_smarty_tpl->tpl_vars['t
                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                     </ul>
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="copyright" class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="info-text">Copyright © 2018 Rimalite | All Rights Reserved <br>
+										Provided with <i class="fa fa-heart" aria-hidden="true"></i> and care. </div>
             </div>
         </div>
     </div>

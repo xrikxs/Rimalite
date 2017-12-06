@@ -16,37 +16,46 @@
 <div id="footer" class="container-fluid">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-4 col-md-5">
-                <div class="footer-menu-holder">
-                    <h4>About</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                </div>
-            </div>
             <div class="col-xs-6 col-sm-4 col-md-3">
                 <div class="address-holder">
-                    <div class="phone"><i class="fa fa-phone"></i> 00 285 900 38502</div>
-                    <div class="email"><i class="fa fa-envelope"></i> hello@hostify.com</div>
+                    <div class="email"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Submit a ticket</div> 
+                    <div class="email"><i class="fa fa-envelope"></i> Info@rimalite.net</div>
                     <div class="address">
                         <i class="fa fa-map-marker"></i> 
-                        <div>City Avenue, Office 64,<br>
-                            Floor 6,  Milbourne,<br>
-                            Australia.</div>
+                        <div>Hilversum,<br>
+                             The Netherlands.</div>
                     </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-2 col-md-2">
+                <div class="footer-menu-holder">
+                    <h4>Company</h4>
+                    <ul class="footer-menu">
+                        <li><a href="about.html">About Us</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="pp.html">Privacy Policy</a></li>
+                        <li><a href="tos.html">Terms Of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-2 col-md-3">
+                <div class="footer-menu-holder">
+                    <h4>Services</h4>
+                    <ul class="footer-menu">
+                        <li><a href="mcpackage.html">MC Hosting</a></li>
+                        <li><a href="mcpe.html">MCPE Hosting</a></li>
+                        <li><a href="teamspeak3.html">Ts3 Hosting</a></li>
+                    </ul>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-3 col-md-3">
                 <div class="footer-menu-holder">
-                    {if !$loggedin }
-                    <h4>Links</h4>
-                    {else}
-                    <h4>Client details</h4>
-                    {/if}
+                    <h4>Others</h4>
                     <ul class="footer-menu">
-                        {if !$loggedin }
-                            {include file="$template/includes/navbar.tpl" navbar=$primaryNavbar}
-                        {else}
-                            {include file="$template/includes/customnavbar.tpl" navbar=$secondaryNavbar}
-                        {/if}
+                        <li><a href="FAQ.html">FAQ</a></li>
+                        <li><a href="portal.html">Payment Methods</a></li>
+                        <li><a href="client/register.php">Create Account</a></li>
+                        <li><a href="whmcs.html">GamePanel</a></li>
                     </ul>
                 </div>
             </div>
@@ -58,6 +67,16 @@
                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                     </ul>
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="copyright" class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="info-text">Copyright © 2018 Rimalite | All Rights Reserved <br>
+										Provided with <i class="fa fa-heart" aria-hidden="true"></i> and care. </div>
             </div>
         </div>
     </div>

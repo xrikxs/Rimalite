@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2017-12-02 20:11:49
+/* Smarty version 3.1.29, created on 2017-12-05 20:03:12
   from "/var/www/html/whmcs/templates/hostify/header.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_5a22faf5bc8721_34176380',
+  'unifunc' => 'content_5a26ed703d8fc8_94754933',
   'file_dependency' => 
   array (
     '457ded95c50de13bb95199065627a63b4e25b2c1' => 
     array (
       0 => '/var/www/html/whmcs/templates/hostify/header.tpl',
-      1 => 1512241891,
+      1 => 1512500590,
       2 => 'file',
     ),
   ),
@@ -19,7 +19,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_5a22faf5bc8721_34176380 ($_smarty_tpl) {
+function content_5a26ed703d8fc8_94754933 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -204,7 +204,6 @@ echo $_smarty_tpl->tpl_vars['LANG']->value['adminloggedin'];?>
 /index.php" class="logo logo-text logo-holder"><div class="logo" style="width:62px;height:18px" title="<?php echo $_smarty_tpl->tpl_vars['companyname']->value;?>
 "></div></a>
             <?php }?>
-
         </div>
     </section>
     <section id="main-menu">

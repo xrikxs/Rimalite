@@ -329,13 +329,13 @@ svg.logo text{
     margin-left: 30px;
 }
 .support-button-holder a.support-button{
-    display: inline-block;
+	display: inline-block;
     position: relative;
     cursor: pointer;
     padding: 9px 30px;
-    background-color: #65d692;
+    background-color: #f6f6f9;
     border-radius: 4px;
-    color: #ffffff;
+    color: #009df8;
     opacity: 1;
     margin-top: 11px;
     margin-left: 10px;
@@ -345,6 +345,7 @@ svg.logo text{
     -moz-box-shadow: 0 4px 6px 0 rgba(92, 29, 192, 0.38);
     box-shadow: 0 4px 6px 0 rgba(92, 29, 192, 0.38);
 }
+
 .support-button-holder a.support-button:hover,
 .support-button-holder a.support-button:focus{
     background-color: #57c984 !important;
@@ -1725,7 +1726,7 @@ svg.logo text{
 	12. Footer Section Styles
 -------------------------------------------------------------------*/
 #footer{
-    background-color: #756de7;
+    background-color: #009df8;
     padding-top: 90px;
     padding-bottom: 70px;
     text-align: center;
@@ -1812,7 +1813,7 @@ svg.logo text{
     margin-left: -25px;
 }
 #footer .email:hover{
-    background-color: #6159d1;
+    background-color: #5d9cec;
     -webkit-box-shadow: 0 8px 18px rgba(0,0,0,0.08);
     box-shadow: 0 8px 18px rgba(0,0,0,0.08);
 }
@@ -1831,7 +1832,7 @@ svg.logo text{
     margin-left: -25px;
 }
 #footer .address:hover{
-    background-color: #6159d1;
+    background-color: #5d9cec;
     -webkit-box-shadow: 0 8px 18px rgba(0,0,0,0.08);
     box-shadow: 0 8px 18px rgba(0,0,0,0.08);
 }
